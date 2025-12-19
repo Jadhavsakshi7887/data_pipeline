@@ -6,10 +6,15 @@ Motia is an open-source, unified backend framework that eliminates runtime fragm
 ## About This Data Pipeline Project
 
 This project demonstrates a complete data pipeline using Motia:
+
 File Upload: Users can JSON data via a lightweight frontend.
+
 Data Cleaning: Backend processes uploaded data and cleans the data.
+
 Visualization: Cleaned data is displayed in tables and interactive charts
+
 Frontend: Simple HTML, CSS, and JavaScript hosted on Vercel; interacts with the Motia backend API.
+
 This project showcases how Motia Steps can handle real-world file processing workflows combined with frontend visualization.
 
 ## Quick Start
