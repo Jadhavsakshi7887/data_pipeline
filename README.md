@@ -62,6 +62,25 @@ motia.config.ts     # Motia configuration
 
 Steps are auto-discovered from your `steps/` or `src/` directories - no manual registration required.
 
+## 📸 Data Pipeline & Runtime Screenshots
+
+### Motia Data Pipeline (Workbench)
+This screenshot shows the complete data pipeline built using Motia Steps.
+
+<img width="1900" height="743" alt="Screenshot 2025-12-16 200710" src="https://github.com/user-attachments/assets/b468a6e9-18df-4fd4-bea0-0fd3e0983c18" />
+<img width="1879" height="571" alt="Screenshot 2025-12-19 190052" src="https://github.com/user-attachments/assets/56b58815-f044-4ccb-9502-fba469596e8f" />
+
+
+### Development Server Running
+Motia runtime and Workbench running locally using `npm run dev`.
+
+<img width="1723" height="689" alt="Screenshot 2025-12-19 105211" src="https://github.com/user-attachments/assets/7db8f042-c849-4275-b4d2-a4f75c7a0fca" />
+<img width="894" height="675" alt="Screenshot 2025-12-16 225827" src="https://github.com/user-attachments/assets/4148c2a5-ff8a-4cf3-b1c2-d28ed1b35d9e" />
+
+### Frontend Visualization
+<img width="1451" height="902" alt="Screenshot 2025-12-19 180257" src="https://github.com/user-attachments/assets/a29e944f-f26b-41b7-b2c8-8c8722111abd" />
+
+
 ## Learn More
 
 - [Documentation](https://motia.dev/docs) - Complete guides and API reference
