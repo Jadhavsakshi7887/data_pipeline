@@ -62,11 +62,13 @@ motia.config.ts     # Motia configuration
 
 Steps are auto-discovered from your `steps/` or `src/` directories - no manual registration required.
 
+
 ## Live Links
 
 Frontend : https://frontend-ten-mu-15.vercel.app/
 
 Backend Deployed API : https://cut8ia-mq1ko5.sakshijadhav-0fv5qdh4aw.motia.cloud/upload
+
 
 ## 📸 Data Pipeline & Runtime Screenshots
 
