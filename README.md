@@ -1,20 +1,22 @@
-# data_pipeline
-
-A Motia tutorial project in TypeScript.
 
 ## What is Motia?
 
 Motia is an open-source, unified backend framework that eliminates runtime fragmentation by bringing **APIs, background jobs, queueing, streaming, state, workflows, AI agents, observability, scaling, and deployment** into one unified system using a single core primitive, the **Step**.
+
+## About This Data Pipeline Project
+
+This project demonstrates a complete data pipeline using Motia:
+File Upload: Users can JSON data via a lightweight frontend.
+Data Cleaning: Backend processes uploaded data and cleans the data.
+Visualization: Cleaned data is displayed in tables and interactive charts
+Frontend: Simple HTML, CSS, and JavaScript hosted on Vercel; interacts with the Motia backend API.
+This project showcases how Motia Steps can handle real-world file processing workflows combined with frontend visualization.
 
 ## Quick Start
 
 ```bash
 # Start the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
 This starts the Motia runtime and the **Workbench** - a powerful UI for developing and debugging your workflows. By default, it's available at [`http://localhost:3000`](http://localhost:3000).
@@ -38,51 +40,22 @@ Every Step has a `type` that defines how it triggers:
 ```bash
 # Start Workbench and development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+
 
 # Start production server (without hot reload)
 npm run start
-# or
-yarn start
-# or
-pnpm start
-
-# Generate TypeScript types from Step configs
-npm run generate-types
-# or
-yarn generate-types
-# or
-pnpm generate-types
-
-# Build project for deployment
-npm run build
-# or
-yarn build
-# or
-pnpm build
 ```
 
 ## Project Structure
 
 ```
-steps/              # Your Step definitions (or use src/)
+steps/              # backend
+public/             # Frontend files (index.html, app.js)
 src/                # Shared services and utilities
 motia.config.ts     # Motia configuration
 ```
 
 Steps are auto-discovered from your `steps/` or `src/` directories - no manual registration required.
-
-## Tutorial
-
-This project includes an interactive tutorial that will guide you through:
-- Understanding Steps and their types
-- Creating API endpoints
-- Building event-driven workflows
-- Using state management
-- Observing your flows in the Workbench
 
 ## Learn More
 
