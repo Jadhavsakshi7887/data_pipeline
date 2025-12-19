@@ -1,0 +1,44 @@
+[
+  {
+    "id": "basic-tutorial",
+    "config": {
+      "src\\petstore\\state-audit-cron.step.ts": {
+        "x": 226,
+        "y": 0
+      },
+      "src\\petstore\\process-food-order.step.ts": {
+        "x": 226,
+        "y": 219
+      },
+      "src\\petstore\\notification.step.ts": {
+        "x": 576,
+        "y": 141
+      },
+      "src\\petstore\\api.step.ts": {
+        "x": 0,
+        "y": 205
+      }
+    }
+  },
+  {
+    "id": "csv-analytics",
+    "config": {
+      "steps\\visualize-data.step.js": {
+        "x": 537,
+        "y": 34
+      },
+      "steps\\upload-data.step.js": {
+        "x": 0,
+        "y": 0
+      },
+      "steps\\detect-data.step.js": {
+        "x": 182,
+        "y": 34
+      },
+      "steps\\clean-data.step.js": {
+        "x": 364,
+        "y": 34
+      }
+    }
+  }
+]
