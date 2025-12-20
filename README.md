@@ -92,6 +92,10 @@ Motia runtime and Workbench running locally using `npm run dev`.
 
 <img width="1824" height="862" alt="Screenshot 2025-12-16 223646" src="https://github.com/user-attachments/assets/1ad8cabd-c8f4-49d6-9ce7-1b2e19979c49" />
 
+### Testing Deployed API Using Postman
+
+<img width="1865" height="897" alt="Screenshot 2025-12-16 163101" src="https://github.com/user-attachments/assets/c779a9c2-cb0c-43ee-bed9-29212eea25cb" />
+
 
 ## Learn More
 
